@@ -1,0 +1,27 @@
+*{
+    margin:  0;
+    padding: 0;
+}
+body{
+    background-color: aqua;
+}
+h1{
+    text-align: center;
+    font-family:cursive;
+    font-weight: bolder;
+    font-size: x-large;
+}
+.formbox{
+    margin: 100px 400px 100px 400px;
+    padding: 70px;
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: blanchedalmond;
+}
+.labs{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: normal;
+    font-size: large;
+}

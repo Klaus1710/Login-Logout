@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Contact form</h1>
+    <div class = "formbox">
+        <form action="/" method="post">
+            <label for="Name" class = "labs">Name: </label>
+            <input type="text" name="Name" id=""><br><br>
+            <label for="Email" class = "labs">Email: </label>
+            <input type="email" name="Email" id=""><br><br>
+            <button type="submit" name = "Submit" onclick="this.form.elements['text-input'].value=''">Submit</button>
+            <button type="reset" name="Reset">Reset</button>
+        </form>
+    </div>
+</body>
+</html>
